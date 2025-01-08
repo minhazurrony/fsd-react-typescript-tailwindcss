@@ -1,2 +1,2 @@
 # fsd-react-typescript-tailwindcss
-This template facilitates a starter kit for React, Typescript, TailwinCSS, Shadcn UI, Redux Toolkit, React Router project.
+This template facilitates a starter kit for React, Typescript, TailwinCSS, Shadcn UI, Redux Toolkit, React Router project with Feature-Sliced Design (FSD) architechture.
