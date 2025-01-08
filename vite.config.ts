@@ -1,11 +1,13 @@
 import react from "@vitejs/plugin-react"
 
 import { defineConfig } from "vite"
+// @ts-ignore
+import eslint from "vite-plugin-eslint"
 import tsconfigPaths from "vite-tsconfig-paths"
 
 // https://vite.dev/config/
 export default defineConfig({
-	plugins: [react(), tsconfigPaths()],
+	plugins: [react(), tsconfigPaths(), eslint()],
 	resolve: {
 		alias: {
 			"@app": "/src/app",
