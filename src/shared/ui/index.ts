@@ -1,3 +1,2 @@
-import React from "react"
-
-import { Home } from "@pages/home"
+export * from "./button"
+export * from "./input"

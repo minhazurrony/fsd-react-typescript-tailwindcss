@@ -40,10 +40,6 @@ export default [
 				"error",
 				{ argsIgnorePattern: "^_" },
 			],
-			"react-refresh/only-export-components": [
-				"warn",
-				{ allowConstantExport: true },
-			],
 			"boundaries/entry-point": [
 				2,
 				{
